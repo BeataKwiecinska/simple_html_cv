@@ -1,5 +1,5 @@
 function booleanToString2(b){
-  }
+}
 
-  booleanToString = be => `${be}`;
+booleanToString = be => `${be}`;
 console.log(booleanToString(false));
