@@ -4,8 +4,6 @@ numbersMaped = numbers.map(function(el) {
     return el * 2;
 })
 
-
-
 let numbersMaped2 = numbers.map(el => el * 4);
 console.log(numbersMaped2);
 

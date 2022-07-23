@@ -5,6 +5,7 @@ let names = ['Matt', 'Beata', 'Ben', 'Tom', 'Zuza'];
 function checkNameLength(name){
     return name.length > 3;
 }
+
 let longNames = names.filter(checkNameLength);
 console.log(`Long names: ${longNames}`);
 
