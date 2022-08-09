@@ -8,4 +8,3 @@ function highAndLow(numbers) {
   numbersArray = numbersArray.map(el => parseInt(el)) //wez element i przerub na liczbę
   return (Math.max(...numbersArray)) + ' ' + (Math.min(...numbersArray));
 }
-console.log(highAndLow(n));
